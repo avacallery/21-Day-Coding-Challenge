@@ -11,7 +11,7 @@ const voter_signatures = ["Bill Billiamson","Kate Etak","Simon Simonson","Brando
 const voter_ids = ["Bill Billiamson","Kate Etak","Simon Simonson","Brandon Brandonus"];
 
 const voterTurnout = (voter_signatures, voter_ids) => {
-      if (voter_signatures.length !== voter_ids.length) { //strict inequality operater
+      if (voter_signatures.length !== voter_ids.length) { // !== strict inequality operater
          return false;
       }
           for (var i = 0; i < voter_signatures.length; i++) {
